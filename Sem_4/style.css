@@ -3,60 +3,99 @@
     padding: 0;
 }
 
-.top{
-
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
 }
 
-.header{
-   padding: 38px;
+.container{
+    width: 100%;
+    max-width: 1240;
+    margin: 0 auto;
 }
+
+.header__iner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-bottom: 143px;
+}
+
+.logo2{
+    margin-top: 45px;
+    padding-left: 14px;
+} 
+/* .header1{
+    padding: 40px;
+    justify-content: space-between;
+} */
+
+.logo1{}
+   
+.nav{
+    display: flex;
+}
+
+
 
 .header_link2{
+    margin-left: 36px;
     text-decoration: none;
-    font-family: Gilroy-Medium;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 .header_link{
+    margin-left: 36px;
     text-decoration: none;
     color: #000;
-    font-family: Gilroy-Medium;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top_content{
-    padding: 101px;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.top_text{
+   padding: 54px;
 }
 
 .top_h1{
     color: #000;
-    font-family: Gilroy-Bold;
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top_h3{
     padding: 17px;
+    padding-right: 250px;
 }
 .top_h3{
     color: #888;
-    font-family: Gilroy-Medium;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top_button1{
     margin: 37px;
     margin-left: 2px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top_button1{
@@ -66,6 +105,7 @@
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top_button2{
@@ -74,5 +114,8 @@
 }
 
 .top_logos{
-    margin: 96px;
+    display: flex;
+    margin-top: 97px;
+    margin-bottom: 96;; 
+    justify-content:space-around;
 }
